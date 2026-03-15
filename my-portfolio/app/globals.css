@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* Nền trắng tinh hoặc xám cực nhạt, chữ màu xám đậm (zinc-900) để không bị gắt như màu đen thuần */
+  @apply bg-white text-zinc-900 antialiased; 
+}
